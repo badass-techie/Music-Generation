@@ -2,10 +2,10 @@
 
 ### Generate Music with Machine Learning.
 
----
+
 > deep-learning sequence-modeling attention transformer keras
 
----
+
 The songs are represented in sheet music (ABC) notation. The model ([Transformer](https://arxiv.org/abs/1706.03762)) takes metadata as input, creates an encoding from it, and uses the idea of attention to predict each note based on parts of this encoding. This paradigm is better at modeling higher-level structure than traditional sequence models, which suits the task of music generation.
 
 - Attention is key. It makes sure that at each point of the output sequence, the token is generated only from parts of the input that are relevant.
