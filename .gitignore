@@ -1,0 +1,8 @@
+.idea/
+__pycache__/
+dataset/*
+generated/*
+dataset.txt
+generator.tflite
+test_set.json
+vocab.txt
